@@ -1,12 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #212121;
+}
+
 body {
-  background-image: url(../images/bloom-blossom-clean-clear-580871.jpg);
-  
+  /* overflow: hidden; */
+  font-family: "Main";
+  overflow-y: auto;
+}
 
+/* header-css */
+header {
+  position: relative;
+  background: linear-gradient(to bottom right, #ff644e, #cb3018);
+  color: white;
+  padding: 0 20px;
+  line-height: 1.5em;
+}
 
-.header {
-  display: block;
+.wrapper {
+  padding: 25px 0 20px 0;
   text-align: center;
-  padding: 50px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: larger;s
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+}
+p {
+  font-family: "Main";
+  font-size: 15px;
+  font-size: medium;
+}
+
+header .wrapper nav {
+  background-color: rgb(244, 239, 239);
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Main";
+  font-size: larger;
+  width: auto;
+}
+
+.inline-block a {
+  color: white;
+  text-decoration: underline;
+}
+.inline-block a:hover {
+  color: white;
+}
+
+header nav {
+  display: block;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 0;
+}
+
+header nav li {
+  display: inline-block;
+}
+/* ul {
+  list-style-type: disc;
+} */
+
+header nav a {
+  display: block;
+  color: #cb3018;
+  padding: 2px 30px 2px 30px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+header nav a:hover,
+header nav li.selected a {
+  background-color: #cb3018;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* google animation-css*/
+.wrapper2 {
+  position: fixed;
+  padding: 40px;
+  background-color: #212121;
+  opacity: 0.9;
+}
+
+.circle,
+.squircle {
+  border-top: 0.1em solid rgba(255, 255, 255, 0.4);
+  height: 12.5em;
+  position: absolute;
+  width: 12.5em;
+}
+
+.circle {
+  border-radius: 50%;
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.5);
+  left: calc(50% - 6.25em);
+  top: calc(50% - 12.5em);
+  transform-origin: 50% 12.5em;
+}
+
+.one {
+  background: rgba(16, 63, 236, 0.75);
+  transform: rotateZ(225deg);
+}
+.two {
+  background: rgba(37, 172, 162, 0.75);
+  transform: rotateZ(180deg);
+}
+.three {
+  background: rgba(233, 124, 32, 0.75);
+  transform: rotateZ(135deg);
+}
+.four {
+  background: rgba(235, 67, 35, 0.75);
+  transform: rotateZ(90deg);
+}
+.five {
+  background: rgba(190, 28, 65, 0.75);
+  transform: rotateZ(45deg);
+}
+.six {
+  background: rgba(208, 57, 159, 0.75);
+  transform: rotateZ(0);
+}
+.seven {
+  background: rgba(150, 32, 198, 0.75);
+  transform: rotateZ(-45deg);
+}
+.eight {
+  background: rgba(95, 33, 203, 0.75);
+  transform: rotateZ(-90deg);
+}
+
+/* aboutme-css */
+
+.aboutme {
+  background-color: #212121;
+  color: #ffffff;
+  font-family: "Main";
+}
+.aboutme:hover {
+  background-color: black;
+}
+.aboutme h2 {
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 200px;
+  font-family: "Main";
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.aboutme p {
+  margin: 20px 200px 20px 200px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.carousel {
+  height: 30px;
+  width: 30px;
+}
+
+footer {
+  margin-top: 0px;
+  padding: 35px;
+  text-align: center;
+  color: #757575;
+  line-height: 0.8em;
+  background-color: #212121;
+  font-size: larger;
+  margin-bottom: 0;
 }
