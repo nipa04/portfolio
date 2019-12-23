@@ -85,10 +85,10 @@ header nav li.selected a {
 
 /* google animation-css*/
 .wrapper2 {
-  position: fixed;
-  padding: 40px;
+  margin: 0;
+  position: relative;
+  padding: 150px 200px 50px 200px;
   background-color: #212121;
-  opacity: 0.9;
 }
 
 .circle,
@@ -146,15 +146,18 @@ header nav li.selected a {
   background-color: #212121;
   color: #ffffff;
   font-family: "Main";
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 .aboutme:hover {
   background-color: black;
 }
-.aboutme h2 {
+.aboutme h1 {
   margin: 0;
   padding-top: 20px;
   padding-left: 200px;
-  font-family: "Main";
+  font-family: "Great Vibes", cursive;
   font-size: 30px;
   font-weight: bold;
   color: #ffffff;
@@ -165,19 +168,62 @@ header nav li.selected a {
   text-align: center;
   font-size: 18px;
 }
+.aboutme p a {
+  color: #ff644e;
+}
+.mail {
+  color: #ff644e;
+  text-decoration: underline;
+}
+/* #skills-css */
+.skills {
+  margin: 0;
+  position: absolute;
+  padding: 50px 200px 50px 200px;
+  background-color: #212121;
+  font-family: "Main";
+}
+.skills h2 {
+  color: #ffffff;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
 
-.carousel {
-  height: 30px;
-  width: 30px;
+.carousel-item img {
+  height: 500px;
+  width: 250px;
+}
+
+section {
+  background-color: #212121;
+  font-family: "Main";
+  color: #ffffff;
+  padding: 20px 200px 20px 200px;
+}
+section:hover {
+  background-color: black;
+}
+
+.col-sm-10 button {
+  background-color: #ff644e;
+  font-family: "Main";
+  color: #ffffff;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 300px;
+}
+.col-sm-10 button:hover {
+  background-color: #cb3018;
+  color: #ffffff;
 }
 
 footer {
   margin-top: 0px;
   padding: 35px;
   text-align: center;
-  color: #757575;
+  color: #ffffff;
   line-height: 0.8em;
-  background-color: #212121;
-  font-size: larger;
+  background: linear-gradient(to bottom right, #ff644e, #cb3018);
+  font-size: bold;
   margin-bottom: 0;
 }
