@@ -85,10 +85,12 @@ header nav li.selected a {
 
 /* google animation-css*/
 .wrapper2 {
-  margin: 0;
   position: relative;
-  padding: 150px 200px 50px 200px;
+  padding: 250px 200px 150px 200px;
   background-color: #212121;
+}
+.wrapper2:hover {
+  background: linear-gradient(to bottom right, #212121, black);
 }
 
 .circle,
@@ -176,7 +178,7 @@ header nav li.selected a {
   text-decoration: underline;
 }
 /* #skills-css */
-.skills {
+/* .skills {
   margin: 0;
   position: absolute;
   padding: 50px 200px 50px 200px;
@@ -192,7 +194,7 @@ header nav li.selected a {
 .carousel-item img {
   height: 500px;
   width: 250px;
-}
+} */
 
 section {
   background-color: #212121;
