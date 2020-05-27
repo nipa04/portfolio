@@ -304,13 +304,36 @@ header nav li.selected a {
   font-size: 25px;
   font-weight: bolder;
 }
+.card img{
+    object-fit: contain;
+    opacity: 0.9;
+}
+
+#project1{
+
+  background-color:  #212121;
+  padding: 6%;
+  color: white;
+  margin-top: 6%;
+  box-shadow: none;
+}
 
 
+#project1:hover{
+  background-color: #cb3018;
+}
 
+.car{
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
 
-
-
-
+.car:hover{
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
 
 
 
