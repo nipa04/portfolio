@@ -47,10 +47,46 @@ header .wrapper nav {
   
 }
 
+.wrapper h1{
+  -webkit-animation: pulse linear .5s infinite;
+	animation: pulse linear .5s infinite;  
+
+}
+
+
+@-webkit-keyframes pulse {
+	0% { width:200px; } 
+	50% { width:340px; } 
+	100% { width:200px; }
+}
+@keyframes pulse {
+	0% { width:200px; } 
+	50% { width:340px; } 
+	100% { width:200px; }
+}
+
+
+
 .inline-block a {
   color: white;
   text-decoration: underline;
+  font-size: 25px;
+	-webkit-animation: flash linear 1s infinite;
+	animation: flash linear 1s infinite;
+  
 }
+
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+
 .inline-block a:hover {
   color: white;
 }
@@ -192,7 +228,76 @@ header nav li.selected a {
   margin: 0;
   padding-top: 20px;
   padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
 }
+
+.aboutmeflex{
+  display: flex;
+  flex-direction: row;
+  padding-left: 200px;
+}
+.flex1{
+    width: 10%;
+    margin-right:5% ;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+}
+
+/* .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex2{
+  width: 90%;
+}
+
 .aboutme:hover {
   background-color: black;
 }
@@ -200,6 +305,7 @@ header nav li.selected a {
   margin: 0;
   padding-top: 20px;
   padding-left: 200px;
+  padding-bottom: 3%;
   font-family: "Main";
   font-size: 30px;
   font-weight: bold;
@@ -266,6 +372,7 @@ header nav li.selected a {
  .flex:hover{
    background: black;
    color: #cb3018;
+   
  }
 
 
@@ -319,9 +426,41 @@ header nav li.selected a {
 }
 
 
+/* .face:hover {
+  animation: shake 0.22s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+} */
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
 #project1:hover{
   background-color: #cb3018;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+ 
 }
+
+
 
 .car{
   color: white;
@@ -362,6 +501,7 @@ section:hover {
 .col-sm-10 button:hover {
   background-color: #cb3018;
   color: #ffffff;
+  
 }
 
 form {
