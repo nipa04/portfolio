@@ -1,25 +1,28 @@
 
-.container{
+.nav-container{
   background-color: #E0EBE8;
-  height: 100%;
+  height: 900%;
+  width: 100%;
   padding-top: 1%;
   color: #4AB19A;
+  font-family: 'EB Garamond', serif;
  
 }
 
 .nav-ul{
-  padding-left: 55%;
+  padding-left: 40%;
 
 }
 
 .navbar-brand{
-  padding-left: 10%;
+  padding-left: 20%;
 }
 
 .nav-link{
   color: #4AB19A;
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'EB Garamond', serif;
+  
 
 }
 
@@ -28,12 +31,15 @@
   background-color: #F5F9F8;
 }
 
+
+
 .container-fluid{
   text-align: center;
-  padding-top: 10%;
+  padding-top: 3%;
+ 
 }
 .container-fluid h2{
-  font-size: 65px;  
+  font-size: 70px;  
   font-family: 'Marck Script', cursive;
 }
 
@@ -42,6 +48,21 @@
   padding-top: 2%;
   font-family: 'EB Garamond', serif;
 }
+
+#cloud1{
+  margin-left: 50%;
+  margin-top: -3%;
+}
+#cloud2{
+  margin-right: 50%;
+  margin-bottom: 0.2%;
+}
+.palace{
+  margin-top: -8%;
+  padding-left: 30%;
+  margin-bottom: -4.5%;
+}
+
 
 .cons{
   font-family: 'Montserrat', sans-serif;
@@ -54,6 +75,118 @@
   font-weight: bolder;
 }
 
+.container-fluid2{
+  text-align: center;
+  padding-top: 5%;
+  background-color: white;
+}
+
+#avatar{
+  border-radius: 50%;
+  background-color: #F3F2F1;
+  padding: 1%;
+}
+h3{
+  font-size: 20px;
+  padding-top: 3%;
+  color: #4AB19A;
+  font-family: 'EB Garamond', serif;
+
+}
+.container-fluid2 p{
+  color: #545454;
+  padding-top: 1%;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
+
+.container-flex{
+  padding-top: 8%;
+  padding-left: 30%;
+  text-align: center;
+}
+
+.container-flex h2{
+  font-size: 45px;
+  color: #1F826B;
+  padding-bottom: 4%;
+  padding-right: 40%;
+  
+}
+
+
+.flex1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+
+.flex1-1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 18%;
+}
+.flex2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5%;
+
+}
+.flex2-1{
+  display: flex;
+  flex-direction: column;
+  padding-right: 18%;
+  
+}
+
+
+
+
+.container-fluid3{
+  text-align: center;
+  padding-top: 5%;
+  background-color: white;
+  font-style: 'EB Garamond', serif;
+  padding-bottom: 4%;
+
+}
+
+.container-fluid3 h2{
+  font-size: 50px;
+  color: #1F826B;
+}
+
+
+.container-fluid3 h3{
+
+}
+
+
+.container-fluid3 p{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.container-fluid3 button{
+  border-radius: 5%;
+  padding: 1% 2% 1% 2%;
+  color: rgb(9, 67, 53);
+  background-color: #4AB19A;
+  
+}
+
+.footer{
+  background-color: #E0EBE8;
+  font-family: 'EB Garamond', serif;
+  color: #4AB19A;
+  padding: 4%;
+  text-align: center;
+}
 /* font-family: 'EB Garamond', serif;
 font-family: 'Lobster', cursive;
 font-family: 'Montserrat', sans-serif;
