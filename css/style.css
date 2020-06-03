@@ -22,8 +22,6 @@
   color: #4AB19A;
   font-size: 22px;
   font-family: 'EB Garamond', serif;
-  
-
 }
 
 .navbar-brand img {
@@ -35,17 +33,17 @@
 
 .container-fluid{
   text-align: center;
-  padding-top: 3%;
+  padding-top: 1%;
  
 }
 .container-fluid h2{
   font-size: 70px;  
-  font-family: 'Marck Script', cursive;
+  font-family: 'Great Vibes', cursive;
 }
 
 .container-fluid p{
-  font-size: 20px;
-  padding-top: 2%;
+  font-size: 22px;
+  padding-top: 1%;
   font-family: 'EB Garamond', serif;
 }
 
@@ -60,7 +58,7 @@
 .palace{
   margin-top: -8%;
   padding-left: 30%;
-  margin-bottom: -4.5%;
+  margin-bottom: -4%;
 }
 
 
@@ -102,7 +100,7 @@ h3{
 
 .container-flex{
   padding-top: 8%;
-  padding-left: 30%;
+  padding-left: 25%;
   text-align: center;
 }
 
@@ -184,8 +182,27 @@ h3{
   background-color: #E0EBE8;
   font-family: 'EB Garamond', serif;
   color: #4AB19A;
-  padding: 4%;
+  padding: 3%;
   text-align: center;
+  font-size: 18px;
+  
+}
+.footer a{
+  text-decoration: underline;
+  color: #4AB19A;
+
+}
+.foot{
+  padding-bottom: 2%;
+
+}
+
+.foot>.links{
+  color:#4AB19A;
+  padding: 3%;
+  font-size: 20px;
+  text-decoration: none;
+
 }
 /* font-family: 'EB Garamond', serif;
 font-family: 'Lobster', cursive;
