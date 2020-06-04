@@ -55,12 +55,12 @@
   margin-right: 50%;
   margin-bottom: 0.2%;
 }
-.palace{
+#palace{
   margin-top: -8%;
   object-fit: contain;
-  margin-bottom: -4%;
+  margin-bottom: -5%;
   justify-content: center;
-  padding-left: 30%;
+  /* padding-right: 15%; */
   
 }
 
@@ -101,18 +101,18 @@ h3{
   font-size: 20px;
 }
 
-.container-flex{
+.container-fluid4{
   padding-top: 8%;
-  padding-left: 25%;
+  /* padding-left: 25%; */
   text-align: center;
 }
 
-.container-flex h2{
+.container-fluid4 h2{
   font-size: 45px;
   color: #1F826B;
   padding-bottom: 4%;
-  padding-right: 40%;
-  
+  /* /* padding-right: 40%; */
+   
 }
 
 
@@ -122,28 +122,36 @@ h3{
   width: 100%;
   text-align: center;
   padding-bottom: 5%;
+  padding-left: 20%;
 }
 
 
 .flex1-1{
   display: flex;
   flex-direction: column;
-  padding-left: 18%;
+  padding-left: 30%;
+  width: 70%;
 }
+
+
 .flex2{
   display: flex;
   flex-direction: row;
   width: 100%;
   text-align: center;
   padding-bottom: 5%;
+  
 
 }
 .flex2-1{
   display: flex;
   flex-direction: column;
-  padding-right: 18%;
+  padding-right: 20%;
+  width: 70%;
+  padding-left: 15%;
   
 }
+
 
 
 
@@ -188,7 +196,7 @@ h3{
   padding: 3%;
   text-align: center;
   font-size: 18px;
-  
+  width: 100%;
 }
 .footer a{
   text-decoration: underline;
