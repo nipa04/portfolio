@@ -54,9 +54,10 @@
 #cloud2{
   margin-right: 50%;
   margin-bottom: 0.2%;
+  margin-top: -10%;
 }
 #palace{
-  margin-top: -8%;
+  margin-top: -4%;
   object-fit: contain;
   margin-bottom: -5%;
   justify-content: center;
@@ -224,3 +225,13 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Play', sans-serif;
 font-family: 'Roboto', sans-serif; */
+
+#flag1{
+  margin-top: -6%;
+  margin-right: 15% ;
+}
+
+#flag2{
+  margin-top: -6%;
+
+}
