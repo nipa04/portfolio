@@ -57,7 +57,7 @@
   margin-top: -10%;
 }
 #palace{
-  margin-top: 1% ;
+  margin-top: 2% ;
   object-fit: contain;
   margin-bottom: -5%;
   justify-content: center;
@@ -65,14 +65,17 @@
   
 }
 #flagP1{
-  padding-top: 30%;
-  margin-right: -3%;
+
+  padding-top: 31%;
+  margin-right: -5.5%;
+ 
  
   
 }
 #flagP2{
-  padding-top: 30%;
+  padding-top: 31%;
   margin-left: -4.3%;
+ 
   
 }
 
