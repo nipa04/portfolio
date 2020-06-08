@@ -135,8 +135,8 @@ h3{
 .flex1{
   display: flex;
   flex-direction: row;
-  width: 100%;
-  text-align: center;
+  width: 85%;
+  text-align: justify;
   padding-bottom: 5%;
   padding-left: 20%;
 }
@@ -153,8 +153,8 @@ h3{
 .flex2{
   display: flex;
   flex-direction: row;
-  width: 100%;
-  text-align: center;
+  width: 85%;
+  text-align: justify;
   padding-bottom: 5%;
   
   
@@ -165,7 +165,7 @@ h3{
   flex-direction: column;
   padding-right: 20%;
   width: 70%;
-  padding-left: 15%;
+  padding-left: 20%;
   
 }
 
@@ -210,6 +210,56 @@ h3{
   
 }
 
+
+.container-fluid5{
+  background-color: white;
+  text-align: center;
+
+}
+
+
+
+
+.container-fluid6{
+  background-color: #7DCC93;
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.container-fluid6 h3{
+  color: #F5F9F8;
+  font-size: 35px;
+}
+
+.container-fluid6 p{
+  font-size: 16px;
+}
+
+#para{
+  width: 70%;
+  padding-left: 28%;
+
+}
+
+.container-fluid6 button{
+  border-radius: 5%;
+  padding: 1% 2% 1% 2%;
+  color: white;
+  background-color: #2B3D51;
+  border: none;
+  
+}
+
+.container-fluid6 button> a{
+  color: #F5F9F8;
+  text-decoration: none;
+
+}
+
+
+
 .footer{
   background-color: #E0EBE8;
   font-family: 'EB Garamond', serif;
@@ -253,3 +303,4 @@ font-family: 'Roboto', sans-serif; */
   margin-top: -6%;
 
 }
+
