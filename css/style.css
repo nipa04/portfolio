@@ -127,6 +127,9 @@ h3{
   font-size: 45px;
   color: #1F826B;
   padding-bottom: 4%;
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+
+  
   /* /* padding-right: 40%; */
    
 }
@@ -139,6 +142,7 @@ h3{
   text-align: justify;
   padding-bottom: 5%;
   padding-left: 20%;
+  font-size: 18px;
 }
 
 
@@ -147,6 +151,7 @@ h3{
   flex-direction: column;
   padding-left: 30%;
   width: 70%;
+  font-family: 'EB Garamond', serif;
 }
 
 
@@ -156,6 +161,7 @@ h3{
   width: 85%;
   text-align: justify;
   padding-bottom: 5%;
+  font-size: 18px;
   
   
 
@@ -166,6 +172,7 @@ h3{
   padding-right: 20%;
   width: 70%;
   padding-left: 20%;
+  font-family: 'EB Garamond', serif;
   
 }
 
@@ -178,7 +185,7 @@ h3{
   padding-top: 5%;
   background-color: white;
   /* font-style: 'EB Garamond', serif; */
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
   padding-bottom: 4%;
 
 }
@@ -191,8 +198,8 @@ h3{
 
 
 .container-fluid3 h3{
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 25px;
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-size: 22px;
 
 }
 
@@ -200,6 +207,8 @@ h3{
 .container-fluid3 p{
   padding-top: 3%;
   padding-bottom: 3%;
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
 }
 
 .container-fluid3 button{
@@ -214,10 +223,15 @@ h3{
 .container-fluid5{
   background-color: white;
   text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
 }
 
-
+.container-fluid5 img{
+  border-radius: 50%;
+  background-color: #F5F9F8;
+}
 
 
 .container-fluid6{
@@ -235,6 +249,8 @@ h3{
 
 .container-fluid6 p{
   font-size: 16px;
+  
+  
 }
 
 #para{
@@ -304,3 +320,11 @@ font-family: 'Roboto', sans-serif; */
 
 }
 
+.container-fluid7{
+  width: 70%;
+  background-color: #E0EBE7;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 15%;
+  text-align: center;
+}
