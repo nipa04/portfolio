@@ -176,6 +176,121 @@ h3{
   
 }
 
+@media only screen and (max-width: 1240px) and (min-width: 599px) {
+
+  .flex1{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    text-align: justify;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    font-size: 18px;
+  }
+  
+  
+  .flex1-1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+    width: 70%;
+    font-family: 'EB Garamond', serif;
+  }
+  
+  
+  .flex2{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    text-align: justify;
+    padding-bottom: 5%;
+    font-size: 18px;
+    
+    
+  
+  }
+  .flex2-1{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20%;
+    width: 70%;
+    padding-left: 20%;
+    font-family: 'EB Garamond', serif;
+    
+  }
+  
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  .flex1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: justify;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    font-size: 18px;
+  }
+  .flex1 h3{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .div{
+    width: 10%;
+  }
+
+  
+  .flex1-1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    width: 100%;
+    font-family: 'EB Garamond', serif;
+    text-align: justify;
+  }
+  
+  
+  .flex2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: justify;
+    padding-bottom: 5%;
+    font-size: 18px;
+    text-align: justify;
+    
+    
+  
+  }
+
+  .flex2 h3{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .div{
+    width: 10%;
+  }
+
+
+  .flex2-1{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    width: 100%;
+    padding-left: 10%;
+    font-family: 'EB Garamond', serif;
+    
+  }
+  
+  
+}
+
+
+
 
 
 
@@ -216,8 +331,53 @@ h3{
   padding: 1% 2% 1% 2%;
   color: rgb(9, 67, 53);
   background-color: #4AB19A;
+  border: none;
+ 
   
 }
+.fa-envelope {
+  font-size: 22px;
+ 
+  
+}
+
+@media only screen and (max-width: 1240px) and (min-width: 599px) {
+  .container-fluid3 p{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+  }
+
+  .container-fluid3 button{
+    border-radius: 5%;
+    padding: 1% 2% 1% 2%;
+    color: rgb(9, 67, 53);
+    background-color: #4AB19A;
+    
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .container-fluid3 p{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .container-fluid3 button{
+    border-radius: 5%;
+    padding: 3% 15% 3% 15%;
+    color: rgb(10, 41, 34);
+    background-color: #4AB19A;
+    
+  }
+  
+}
+
 
 
 .container-fluid5{
@@ -322,7 +482,7 @@ font-family: 'Roboto', sans-serif; */
 
 .container-fluid7{
   width: 70%;
-  background-color: rgb(54, 206, 143);
+  background-color:  rgb(54, 206, 143);
   padding-left: 8%;
   padding-right: 10%;
   margin-left: 15%;
