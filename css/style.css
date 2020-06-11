@@ -234,10 +234,12 @@ h3{
     padding-left: 10%;
     font-size: 18px;
   }
+
   .flex1 h3{
     font-size: 20px;
     font-weight: bold;
   }
+
   .div{
     width: 10%;
   }
@@ -261,8 +263,7 @@ h3{
     padding-bottom: 5%;
     font-size: 18px;
     text-align: justify;
-    
-    
+
   
   }
 
@@ -283,7 +284,6 @@ h3{
     width: 100%;
     padding-left: 10%;
     font-family: 'EB Garamond', serif;
-    
   }
   
   
@@ -418,6 +418,21 @@ h3{
   padding-left: 28%;
 
 }
+
+@media only screen and (max-width: 600px) {
+  #para{
+    width: 80%;
+    padding-left: 20%;
+    text-align: center;
+  
+  }
+  p{
+    width: 90%;
+    font-size: 12px;
+    padding-left: 10%;
+  }
+}
+
 
 .container-fluid6 button{
   border-radius: 5%;
