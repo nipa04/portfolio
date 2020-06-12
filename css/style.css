@@ -122,9 +122,9 @@
   padding: 1%;
 }
 h3{
-  font-size: 20px;
+  font-size: 35px;
   padding-top: 3%;
-  padding-bottom: 5%;
+  /* padding-bottom: 5%; */
   color: #4AB19A;
   font-family: 'EB Garamond', serif;
 
@@ -251,7 +251,7 @@ h3{
   }
   .flex1-1 img{
     width: 25%;
-    padding: 10%;
+   
    
   
   }
@@ -404,7 +404,7 @@ h3{
 
 .container-fluid3 h3{
   font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-  font-size: 22px;
+  font-size: 25px;
 
 }
 
@@ -413,7 +413,7 @@ h3{
   /* padding-top: 3%; */
   padding-bottom: 3%;
   font-family: 'EB Garamond', serif;
-  font-size: 20px;
+  font-size: 22px;
   width: 70%;
   padding-left: 30%;
 }
