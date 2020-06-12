@@ -12,13 +12,21 @@
 
 .nav-ul{
   padding-left: 40%;
+  display: inline;
 
 }
-@media only screen and (max-width: 575px) {
+ @media only screen and (max-width: 680px) and (min-width: 350px){ 
   .nav-ul{
-    padding-left: 40%;
+    padding-left: 20%;
+    display: inline-block;
   
   }
+
+  .navbar-brand{
+    padding-left: 5%;
+  }
+  
+
 
 
 }
@@ -190,12 +198,24 @@ h3{
   display: flex;
   flex-direction: row;
   padding-bottom: 4%;
+  padding-left: 10%;
 
 }
 .flex1-1{
-  width: 25%;
+  width: 20%;
+  
 
 }
+
+.flex1-2 h3{
+  text-align: justify;
+  width: 80%;
+  padding-left: 30%;
+  text-align: justify;
+  
+
+}
+
 .flex1-2{
   width: 75%;
  
@@ -203,6 +223,10 @@ h3{
 
 .flex1-2 p{
   font-size: 18px;
+  width: 80%;
+  padding-left: 30%;
+  text-align: justify;
+ 
 }
 
 
@@ -211,6 +235,7 @@ h3{
   /* background-color: lightcoral; */
   display: flex;
   flex-direction: row;
+  padding-right: 10%;
 
 }
 
@@ -219,13 +244,28 @@ h3{
   width: 75%;
 
 }
+
+.flex2-1 h3{
+  width: 80%;
+  text-align: justify;
+  padding-left: 20%;
+  padding-right: 10%;;
+ 
+  
+
+}
 .flex2-2{
-  width: 25%;
+  width: 20%;
+  
  
 }
 
 .flex2-1 p{
   font-size: 18px;
+  width: 80%;
+  padding-left: 20%;
+  padding-right: 10%;
+  text-align: justify;
 }
 
 
