@@ -17,13 +17,20 @@
 }
  @media only screen and (max-width: 680px) and (min-width: 350px){ 
   .nav-ul{
-    padding-left: 20%;
+    padding-left: 15%;
     display: inline-block;
+   
   
   }
 
   .navbar-brand{
-    padding-left: 5%;
+    padding-left: 0%;
+  }
+
+  .nav-link{
+    color: #4AB19A;
+    font-size: 12px;
+    font-family: 'EB Garamond', serif;
   }
   
 
