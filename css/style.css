@@ -19,12 +19,13 @@
   .nav-ul{
     padding-left: 20%;
     display: inline-block;
+    font-size: 12px;
    
   
   }
 
   .navbar-brand{
-    padding-left: 20%;
+    padding-left: 30%;
   }
 
   .nav-link{
