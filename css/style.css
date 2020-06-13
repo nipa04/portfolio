@@ -17,14 +17,14 @@
 }
  @media only screen and (max-width: 680px) and (min-width: 350px){ 
   .nav-ul{
-    padding-left: 40%;
+    padding-left: 20%;
     display: inline-block;
    
   
   }
 
   .navbar-brand{
-    margin-left: -10%;
+    padding-left: 20%;
   }
 
   .nav-link{
