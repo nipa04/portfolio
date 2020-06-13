@@ -17,7 +17,7 @@
 }
  @media only screen and (max-width: 680px) and (min-width: 350px){ 
   .nav-ul{
-    padding-left: 60%;
+    padding-left: 40%;
     display: inline-block;
     font-size: 12px;
    
@@ -25,7 +25,8 @@
   }
 
   .navbar-brand{
-    padding-left: 10%;
+    /* padding-left: 10%; */
+    margin-left: -10%;
   }
 
   .nav-link{
