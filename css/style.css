@@ -15,7 +15,7 @@
   display: inline;
 
 }
- @media only screen and (max-width: 680px) and (min-width: 350px){ 
+ @media only screen and (max-width: 600px) and (min-width: 350px){ 
   .nav-ul{
     padding-left: 40%;
     display: inline-block;
@@ -35,8 +35,18 @@
     font-family: 'EB Garamond', serif;
   }
   
+  .container-fluid h2{
+    font-size: 50px;
+  }
+  #flag1{
+    margin-left: -2%;
 
+  }
 
+  #flag2{
+    /* margin-right: -20%; */
+    margin-right: -2%;
+  }
 
 }
 
@@ -351,80 +361,78 @@ h3{
 
 @media only screen and (max-width: 601px) and (min-width: 400px) {
 
-  /* .container-fluid4{
-    padding-top: 8%;
-    padding-right: 8%;
-    padding-left: 5%;
-    text-align: center;
-  
-  }
-  
-
   .flex1{
+    width: 100%;
+    height: 30%;
+    /* background-color: lawngreen; */
     display: flex;
     flex-direction: row;
-    width: 100%;
-    text-align: justify;
-    padding-bottom: 10%;
-    padding-left: 10%;
-    
-    
+    padding-bottom: 4%;
+  
+  }
+  .flex1-1{
+    width: 25%;
+  
+  }
+  .flex1-1 img{
+    width: 25%;
+   
   }
 
-  .flex1 h3{
-    font-size: 20px;
-    font-weight: bold;
+
+  .flex1-2{
+    width: 75%;
+   
   }
 
-  .div{
-    width: 5%;
+  .flex1-2 h3 {
+    font-size: 24px;
   }
 
   
-  .flex1-1{
-    display: flex;
-    flex-direction: column;
-    padding-left: 10%;
-    width: 95%;
-    font-family: 'EB Garamond', serif;
+  .flex1-2 p{
+    font-size: 16px;
     text-align: justify;
-    
     
   }
   
   
   .flex2{
+    height: 30%;
+    /* background-color: lightcoral; */
     display: flex;
     flex-direction: row;
-    width: 100%;
-    text-align: justify;
-    padding-bottom: 5%;
-    font-size: 30px;
-    text-align: justify;
-
+  
+  }
+  
+  
+  .flex2-1{
+    width: 75%;
   
   }
 
-  .flex2 h3{
-    font-size: 20px;
-    font-weight: bold;
-  } */
 
-  /* .div{
-    width: 5%;
+  .flex2-1 h3{
+    font-size: 24px;
   }
 
 
-  .flex2-1{
-    display: flex;
-    flex-direction: column;
-    padding-right: 10%;
-    width: 95%;
-    padding-left: 10%;
-    font-family: 'EB Garamond', serif;
-    
+
+  .flex2-2{
+    width: 25%;
+   
   }
-   */
+  
+  .flex2-1 p{
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  .flex2-2 img{
+    width: 25%;
+  }
+  
+  
   
 }
 
@@ -540,7 +548,7 @@ h3{
 }
 
 .container-fluid5 img{
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: #F5F9F8;
 }
 
@@ -648,13 +656,13 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .container-fluid7{
-  width: 70%;
-  background-color:  rgb(54, 206, 143);
+  width: 100%;
+  background-color: #4AB19A;
   padding-left: 8%;
   padding-right: 10%;
-  margin-left: 15%;
+  /* margin-left: 15%; */
   text-align: center;
-  padding-top: 5%;
+  padding-top: 15%;
   
   
  
@@ -709,8 +717,9 @@ font-family: 'Roboto', sans-serif; */
 .skills{
   color: white;
   font-size: 25px;
-  
-
+}
+#noteh3{
+  padding-bottom: 10%;
 }
 
 
