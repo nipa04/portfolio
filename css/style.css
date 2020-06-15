@@ -81,7 +81,8 @@
 }
 
 .container-fluid p{
-  font-size: 22px;
+  font-size: 25px;
+  font-weight: 600;
   padding-top: 12%;
   font-family: 'EB Garamond', serif;
   
@@ -119,7 +120,7 @@
 }
 
 
-.cons{
+/* .cons{
   font-family: 'Montserrat', sans-serif;
   padding-left: 25%;
   padding-top: 12%;
@@ -128,7 +129,7 @@
 .cons p{
   font-size: 25px;
   font-weight: bolder;
-}
+} */
 
 .container-fluid2{
   text-align: center;
@@ -163,7 +164,7 @@ h3{
   color: #545454;
   padding-top: 1%;
   font-family: 'EB Garamond', serif;
-  font-size: 20px;
+  font-size: 23px;
   width: 40%;
   text-align: center;
   justify-content: center;
@@ -200,6 +201,7 @@ h3{
   font-size: 40px;
   display: flex;
   flex-direction: column;
+  font-family: 'EB Garamond', serif;
 }
 
 
@@ -207,7 +209,7 @@ h3{
   font-size: 45px;
   color: #1F826B;
   padding-bottom: 4%;
-  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-family: 'EB Garamond', serif;
 
   
   /* /* padding-right: 40%; */
@@ -234,6 +236,7 @@ h3{
   width: 80%;
   padding-left: 30%;
   text-align: justify;
+  
   
 
 }
