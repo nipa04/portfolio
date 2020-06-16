@@ -21,9 +21,13 @@
 
  @media only screen and (max-width: 600px) and (min-width: 350px){ 
   .nav-ul{
-    padding-left: 20%;
+    /* padding-left: 10%; */
     display: inline-block;
-    font-size: 12px;
+    /* font-size: 12px; */
+    /* margin-right: 20%; */
+   
+  
+    
    
   
   }
@@ -33,10 +37,13 @@
     margin-left: -15%;
   }
 
-  /* .nav-ul > .navbar-nav > .nav-item{
-    padding-right: 2%;
+  .nav-ul > .navbar-nav > .nav-item{
+    display: inline-block;
+    /* padding-right: 5%; */
+   
+    
   
-  } */
+  }
 
 
   .nav-link{
@@ -762,7 +769,21 @@ font-family: 'Roboto', sans-serif; */
 
 
 
-@media only screen and (max-width: 1240px) and (min-width: 599px) {
+@media only screen and (max-width: 1240px) {
+  .container-fluid7{
+    width: 60%;
+    background-image: linear-gradient(to bottom right,#4AB19A, #AAF3A7);
+    
+    /* background-color: #4AB19A; */
+    padding-left: 8%;
+    padding-right: 10%;
+    /* margin-left: 15%; */
+    text-align: center;
+    padding-top: 15%;
+    margin-left: 20%;
+  
+   
+  }
   .iconsId{
     color: white;
     font-size: 60px;
@@ -779,6 +800,21 @@ font-family: 'Roboto', sans-serif; */
 
 
 @media only screen and (max-width: 600px) {
+
+  .container-fluid7{
+    width: 85%;
+    background-image: linear-gradient(to bottom right,#4AB19A, #AAF3A7);
+    
+    /* background-color: #4AB19A; */
+    padding-left: 8%;
+    padding-right: 10%;
+    /* margin-left: 15%; */
+    text-align: center;
+    padding-top: 15%;
+    margin-left: 7%;
+  
+   
+  }
   
   .icons{
     width: 30%;
