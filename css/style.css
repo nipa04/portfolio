@@ -567,14 +567,37 @@ h3{
 }
 
 .container-fluid3 button{
-  border-radius: 5%;
+  
   padding: 1% 2% 1% 2%;
-  color: rgb(9, 67, 53);
+  color: rgb(8, 41, 33);
   background-color: #4AB19A;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
   border: none;
+  transition: all .2s;
+ 
+  /* <div class="shadow p-3 mb-5 bg-white rounded">Regular shadow</div> */
  
   
 }
+
+
+.container-fluid3 button:hover {
+  border: none;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+
+}
+.container-fluid3 button:active {
+  border: none;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+
+
 .fa-envelope {
   font-size: 22px;
  
@@ -633,9 +656,26 @@ h3{
   padding-bottom: 5%;
 
 }
+.container-fluid5 h3{
+  font-size: 32px;
+}
 
 .container-fluid5 p{
   font-size: 17px;
+  
+}
+#para > a{
+  color: rgb(61, 167, 110);
+  font-weight: 500;
+  text-decoration: underline;
+  
+
+}
+#para > a:hover{
+  color: rgb(14, 101, 55);
+  font-weight: 600;
+  text-decoration: underline;
+  
 }
 
 .container-fluid5 img{
