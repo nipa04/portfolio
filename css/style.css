@@ -104,20 +104,23 @@
 
 .container-fluid{
   text-align: center;
-  padding-top: 1%;
+  /* padding-top: 1%; */
+  margin-bottom: -5%;
  
 }
 .container-fluid h2{
   font-size: 70px;  
   font-family: 'Great Vibes', cursive;
-  margin-bottom: -5%;
+  margin-top: -10%;
+ 
 }
 
 .container-fluid p{
   font-size: 25px;
-  font-weight: 600;
-  padding-top: 12%;
+  font-weight: 500;
+  padding-top: 10%;
   font-family: 'EB Garamond', serif;
+  margin-top: -10%;
   
 }
 
@@ -135,7 +138,7 @@
 
 @keyframes moveInLeft{
   0% {
-    opacity: 0.5;
+    opacity: 1;
     transform: translate(-100px);
 
   }
@@ -153,7 +156,7 @@
 
 @keyframes moveInRight{
   0% {
-    opacity: 0.5;
+    opacity: 1;
     transform: translate(100px);
 
   }
@@ -174,23 +177,22 @@
 
 
 #palace{
-  /* margin-top: -6% ; */
+  margin-top: -8% ;
   object-fit: contain;
-  margin-bottom: -5%;
-  justify-content: center;
-  /* padding-right: 15%; */
+  padding-top: 5%;
+  /* margin-bottom: -5%;*/
   
 }
-#flagP1{
 
-  padding-top: 24%;
+#flagP1{
+  padding-top: 15.5%;
   margin-right: -5.5%;
   
 
 }
 
 #flagP2{
-  padding-top: 24%;
+  padding-top: 15.5%;
   margin-left: -4.3%;
 
  
@@ -221,6 +223,42 @@
   font-size: 25px;
   font-weight: bolder;
 } */
+
+.container-fluidnote{
+  text-align: center;
+  margin-bottom: -4%;
+
+
+}
+
+.container-fluidnote h2{
+  
+  font-size: 70px;  
+  font-family: 'Great Vibes', cursive;
+
+}
+#flagn1{
+  margin-top: -10%;
+  padding-bottom: 4%;
+ 
+  margin-right: 10%;
+
+}
+
+#flagn2{
+  margin-top: -10%;
+  padding-bottom: 4%;
+
+  margin-left: 10%;
+
+ 
+}
+
+
+
+
+
+
 
 .container-fluid2{
   text-align: center;
