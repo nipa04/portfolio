@@ -177,23 +177,23 @@
 
 
 #palace{
-  margin-top: -8% ;
+  margin-top: -7% ;
   object-fit: contain;
   padding-top: 5%;
-  /* margin-bottom: -5%;*/
+  margin-bottom: .8%;
   
 }
 
 #flagP1{
-  padding-top: 15.5%;
+  padding-top: 12.5%;
   margin-right: -5.5%;
   
 
 }
 
 #flagP2{
-  padding-top: 15.5%;
-  margin-left: -4.3%;
+  padding-top: 12.5%;
+  margin-left: -3.8%;
 
  
 }
@@ -240,8 +240,9 @@
 #flagn1{
   margin-top: -10%;
   padding-bottom: 4%;
- 
-  margin-right: 10%;
+  margin-right: 12%;
+  transform: translate(6px)
+  
 
 }
 
@@ -267,12 +268,16 @@
 }
 
 .container-fluid2 h2{
-  font-size: 48px;
-  padding-top: 3%;
-  color: #4AB19A;
+  font-size: 40px;
+  padding-top: 0%;
+  color: #28685A;
   /* font-family: 'Great Vibes', cursive; */
-  font-family: 'EB Garamond', serif;
-  font-weight: 200;
+  /* font-family: 'EB Garamond', serif; */
+
+  /* font-family: "Helvetica Neue Light","Helvetica Neue","Lucida Grande"; */
+
+  /* font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; */
+  font-weight: 300;
 }
 
 #avatar{
@@ -291,13 +296,14 @@ h3{
 }
 .container-fluid2 p{
   color: #545454;
-  padding-top: 1%;
+  padding-top: 0%;
   font-family: 'EB Garamond', serif;
   font-size: 23px;
   width: 40%;
   text-align: center;
   justify-content: center;
   margin-left: 30%;
+  
 }
 
 @media only screen and (max-width: 1240px) and (min-width: 600px) {
@@ -656,6 +662,7 @@ h3{
 .container-fluid3 h3{
   font-family: 'EB Garamond', serif;
   font-size: 25px;
+  margin-top: -2%;
 
 }
 
@@ -959,6 +966,28 @@ font-family: 'Roboto', sans-serif; */
 .icons{
   width: 30%;
   height: 30%;
+  animation: zoomIn 2s;
+  transform: translateY(-30px);
+  box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes zoomIn{
+  0% {
+    opacity: 0;
+    transform: translate(-100px);
+
+  }
+  80%{
+    transform: translate(0px);
+
+  }
+
+  100%{
+    opacity: 1;
+    transform: translate(0px);
+    
+  }
+
 }
 
 .icon-flex2{
@@ -988,7 +1017,8 @@ font-family: 'Roboto', sans-serif; */
   font-size: 25px;
 }
 #noteh3{
-  padding-bottom: 7%;
+  padding-bottom: 5%;
+  margin-top: -3%;
 }
 
 
