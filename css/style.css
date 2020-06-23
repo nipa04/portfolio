@@ -850,10 +850,9 @@ h3{
   .container-fluid6 button a{
   
     display: inline-block;
-    padding: 0% 40%;
+    /* padding: 0% 0%; */
+    padding: 1% 2% 1% 2%;
  
-   
-    
   }
 
 }
@@ -861,7 +860,7 @@ h3{
 
 .container-fluid6 button{
   border-radius: 2.5%;
-  padding: 1% 2.5% 1% 2.5%;
+  padding: 1% 2% 1% 2%;
   color: white;
   background-color: #2B3D51;
   border: none;
