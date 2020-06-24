@@ -748,7 +748,6 @@ h3{
   }
   
   .container-fluid3 button{
-  
     padding: 3% 27% 3% 27%;
     color: rgb(10, 41, 34);
     background-color: #4AB19A;
@@ -843,18 +842,20 @@ h3{
     /* margin-top: 10%;
     margin-bottom: 10%; */
      margin: 5%;
-     /* display: inline-block; */
-  
+     transition: linear 1s;
+     
+ 
     
   }
-  .container-fluid6 button a{
-  
-    display: inline-block;
-    /* padding: 0% 0%; */
-    padding: 1% 2% 1% 2%;
- 
-  }
 
+  .container-fluid6 button a{
+    display: inline-flex;
+    padding: 0 35%;
+    
+
+    /* padding: 0% 40%; */
+    /* padding: 1% 2% 1% 2%; */
+  }
 }
 
 
@@ -864,8 +865,7 @@ h3{
   color: white;
   background-color: #2B3D51;
   border: none;
-  
-  
+
 }
 
 .container-fluid6 button:hover{
@@ -932,13 +932,11 @@ font-family: 'Roboto', sans-serif; */
 
 #flag2{
   margin-top: -6%;
-
 }
 
 .container-fluid7{
   width: 60%;
-  background-image: linear-gradient(to bottom right,#4AB19A, #AAF3A7);
-  
+  background-image: linear-gradient(to bottom right,#4AB19A, #AAF3A7); 
   /* background-color: #4AB19A; */
   padding-left: 8%;
   padding-right: 10%;
@@ -946,9 +944,6 @@ font-family: 'Roboto', sans-serif; */
   text-align: center;
   padding-top: 15%;
   margin-left: 20%;
-  
-  
- 
 }
 
 .container-fluid7 h2{
@@ -956,9 +951,7 @@ font-family: 'Roboto', sans-serif; */
   color: white;
   /* font-family: 'EB Garamond', serif; */
   font-family: 'Great Vibes', cursive;
-
   margin-top: -15%;
-
 }
 
 .icon-flex{
@@ -966,8 +959,6 @@ font-family: 'Roboto', sans-serif; */
   flex-direction: column;
   /* height: 100%;
   width: 100%; */
-
-
 }
 
 .icon-flex1{
@@ -982,7 +973,8 @@ font-family: 'Roboto', sans-serif; */
 .icons{
   width: 30%;
   height: 30%;
-  animation: zoomIn 2s;
+  transition: linear 1s;
+  /* animation: zoomIn 2s; */
   transform: translateY(-30px);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 }
@@ -1023,9 +1015,6 @@ font-family: 'Roboto', sans-serif; */
   font-size: 55px;
   transition: width 2s;
   /* transition-timing-function: ease-in; */
-
-
-
 }
 
 .skills{
@@ -1043,7 +1032,6 @@ font-family: 'Roboto', sans-serif; */
   .container-fluid7{
     width: 60%;
     background-image: linear-gradient(to bottom right,#4AB19A, #AAF3A7);
-    
     /* background-color: #4AB19A; */
     padding-left: 8%;
     padding-right: 10%;
@@ -1061,8 +1049,7 @@ font-family: 'Roboto', sans-serif; */
   
   .skills{
     color: white;
-    font-size: 25px;
-    
+    font-size: 25px; 
   }
   
 }
@@ -1073,8 +1060,7 @@ font-family: 'Roboto', sans-serif; */
 
   .container-fluid7{
     width: 85%;
-    background-image: linear-gradient(to bottom right,#4AB19A, #AAF3A7);
-    
+    background-image: linear-gradient(to bottom right,#4AB19A, #AAF3A7); 
     /* background-color: #4AB19A; */
     padding-left: 8%;
     padding-right: 10%;
