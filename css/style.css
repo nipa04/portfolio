@@ -6,7 +6,6 @@
   padding-top: 1%;
   color: #4AB19A;
   font-family: 'EB Garamond', serif;
- 
   /* margin-bottom: -3%; */
  
 }
@@ -14,9 +13,6 @@
 .nav-ul{
   padding-left: 40%;
   /* display: inline; */
-  
-  
- 
 }
 
 
@@ -61,18 +57,6 @@
     width: 15%;
   }
 
-
-
-  #flag1{
-   
-
-  }
-
-  #flag2{
-    /* margin-right: -20%; */
-   
-  }
-
 }
 
 
@@ -87,6 +71,15 @@
   font-family: 'EB Garamond', serif;
   
 }
+.nav-link:hover{
+  color: #28685A;
+  font-weight: 400;
+}
+
+.nav-link:checked{
+  color: #28685A;
+  font-weight: 600;
+}
 
 .navbar-brand img {
   border-radius: 50%;
@@ -99,17 +92,7 @@
   padding-right: 15%;
 
 }
-nav-ul > .navbar-nav > .nav-item.links:hover{
-  /* margin-right: 10%; */
-  /* padding-right: 15%; */
-  color: #28685A;
 
-}
-nav-ul > .navbar-nav > .nav-item:visited :active{
-  color:  #28685A;
-  font-size: 30px;
-
-}
      
         
 
