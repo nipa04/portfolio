@@ -76,10 +76,6 @@
   font-weight: 400;
 }
 
-.nav-link:checked + :visited{
-  color: #28685A;
-  font-weight: 600;
-}
 
 .navbar-brand img {
   border-radius: 50%;
@@ -627,7 +623,7 @@ h3{
 
 .container-fluid3{
   text-align: center;
-  padding-top: 5%;
+  padding-top: 7%;
   background-color: white;
   font-style: 'EB Garamond', serif;
   padding-bottom: 4%;
