@@ -475,11 +475,6 @@ h3{
     text-align: center;
   }
   
-  
-  
-  
-  
-  
 
 }
 
@@ -748,8 +743,6 @@ h3{
     font-style: oblique;
    
   }
-  
-
 
   
 }
@@ -837,7 +830,9 @@ h3{
     /* margin-top: 10%;
     margin-bottom: 10%; */
      margin: 5%;
-     transition: linear 1s;
+     border-radius: 2.5%;
+     padding: 1% 2% 1% 2%;
+   
      
  
     
@@ -845,11 +840,8 @@ h3{
 
   .container-fluid6 button a{
     display: inline-flex;
-    padding: 0 35%;
-    
+  
 
-    /* padding: 0% 40%; */
-    /* padding: 1% 2% 1% 2%; */
   }
 }
 
