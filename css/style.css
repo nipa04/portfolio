@@ -76,7 +76,7 @@
   font-weight: 400;
 }
 
-.nav-link:checked{
+.nav-link:checked + :visited{
   color: #28685A;
   font-weight: 600;
 }
