@@ -96,9 +96,21 @@
 
 .nav-ul > .navbar-nav > .nav-item{
   /* margin-right: 10%; */
-  padding-right: 10%;
+  padding-right: 15%;
 
 }
+nav-ul > .navbar-nav > .nav-item.links:hover{
+  /* margin-right: 10%; */
+  /* padding-right: 15%; */
+  color: #28685A;
+
+}
+nav-ul > .navbar-nav > .nav-item:visited :active{
+  color:  #28685A;
+  font-size: 30px;
+
+}
+     
         
 
 
@@ -249,16 +261,9 @@
 #flagn2{
   margin-top: -10%;
   padding-bottom: 4%;
-
   margin-left: 10%;
 
- 
 }
-
-
-
-
-
 
 
 .container-fluid2{
@@ -273,9 +278,7 @@
   color: #28685A;
   /* font-family: 'Great Vibes', cursive; */
   /* font-family: 'EB Garamond', serif; */
-
   font-family: "Helvetica Neue","Lucida Grande";
-
   /* font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; */
   font-weight: 300;
 }
@@ -319,10 +322,7 @@ h3{
     font-size: 20px;
     width: 100%;
     text-align: center;
-  
     margin-left: -5%;
-   
-    
   }
 
 }
@@ -753,6 +753,12 @@ h3{
     background-color: #4AB19A;
     
   }
+
+  .container-fluid2 h2{
+    font-size: 28px;
+    font-style: oblique;
+   
+  }
   
 
 
@@ -944,6 +950,9 @@ font-family: 'Roboto', sans-serif; */
   text-align: center;
   padding-top: 15%;
   margin-left: 20%;
+  border-radius: 1%;
+  
+ 
 }
 
 .container-fluid7 h2{
@@ -973,7 +982,7 @@ font-family: 'Roboto', sans-serif; */
 .icons{
   width: 30%;
   height: 30%;
-  transition: all 5s;
+
 
   /* transform: translateY(-30px); */
   /* box-shadow: 5px 10px 20px rgba(24, 61, 9, 0.9); */
@@ -1007,7 +1016,7 @@ font-family: 'Roboto', sans-serif; */
   padding-top: 10%;
   padding-bottom: 15%;
   padding-left: 2%;
-  
+ 
   
 }
 
@@ -1015,14 +1024,14 @@ font-family: 'Roboto', sans-serif; */
   color: white;
   font-size: 55px;
   transition: width 2s;
-  transition: ease 5s;
+ 
   /* transition-timing-function: ease-in; */
 }
 
 .skills{
   color: white;
   font-size: 25px;
-  transition: ease 5s;
+  
 }
 #noteh3{
   padding-bottom: 5%;
