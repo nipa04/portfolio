@@ -26,7 +26,12 @@
   font-weight: 400;
 }
 
-.nav-ul > .navbar-nav > .nav-item >.nav-link:active{
+/* .nav-ul > .navbar-nav > .nav-item >.nav-link:active{
+  color: #28685A;
+  font-weight: 600;
+} */
+
+.nav-ul > .navbar-nav > .nav-item >.nav-link:active ::after{
   color: #28685A;
   font-weight: 600;
 }
