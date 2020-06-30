@@ -26,10 +26,17 @@
   font-weight: 400;
 }
 
+/* .nav-ul > .navbar-nav > .nav-item >.nav-link:active{
+  color: #28685A;
+  font-weight: 600;
+} */
+
 .nav-ul > .navbar-nav > .nav-item >.nav-link:active{
   color: #28685A;
   font-weight: 600;
 }
+
+
 
 .navbar-brand img {
   border-radius: 50%;
@@ -38,7 +45,6 @@
 
 
 .nav-ul > .navbar-nav > .nav-item{
-
   padding-right: 15%;
 
 }
@@ -817,6 +823,39 @@ h3{
 }
 
 
+.container-fluid6 button{
+  border-radius: 2.5%;
+  padding: 1% 2% 1% 2%;
+  color: white;
+  background-color: #2B3D51;
+  border: none;
+
+}
+
+.container-fluid6 button:hover{
+  background-color: rgb(3, 4, 4);
+}
+
+.container-fluid6 >button >  #blue:hover{
+  background-color: rgb(32, 81, 218);
+}
+
+
+.container-fluid6 button> a{
+  color: #F5F9F8;
+  text-decoration: none;
+
+}
+
+
+#blue{
+  background-color: #4299ED;;
+}
+#blue:hover{
+  background-color: rgb(12, 123, 227);;
+}
+
+
 @media only screen and (max-width: 600px) {
   #para{
     width: 100%;
@@ -834,40 +873,18 @@ h3{
   .container-fluid6 button {
      margin: 5%;
      border-radius: 2.5%;
-     padding: 1% 2% 1% 2%;
+     padding: 3% 29% 3% 29%;
   
     
   }
 
-  .container-fluid6 button a{
-    display: inline-flex;
-    padding: 0% 40% 0% 40%;
-
+  #blue{
+    background-color: #4299ED;;
   }
-}
-
-
-.container-fluid6 button{
-  border-radius: 2.5%;
-  padding: 1% 2% 1% 2%;
-  color: white;
-  background-color: #2B3D51;
-  border: none;
-
-}
-
-.container-fluid6 button:hover{
-  background-color: rgb(3, 4, 4);
-}
-
-
-
-
-.container-fluid6 button> a{
-  color: #F5F9F8;
-  text-decoration: none;
- 
-
+  #blue:hover{
+    background-color: rgb(12, 123, 227);;
+  }
+  
 }
 
 
