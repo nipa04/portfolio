@@ -31,7 +31,7 @@
   font-weight: 600;
 } */
 
-.nav-ul > .navbar-nav > .nav-item >.nav-link:active{
+.nav-ul > .navbar-nav > .nav-item >.nav-link:active::after{
   color: #28685A;
   font-weight: 600;
 }
@@ -75,7 +75,7 @@
 
   .nav-link{
     color: #4AB19A;
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'EB Garamond', serif;
     
   }
