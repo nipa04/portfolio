@@ -26,6 +26,30 @@
   font-weight: 400;
 }
 
+.nav-item:checked+ a{
+  color: #28685A;
+  font-weight: 600;
+
+}
+/*
+.st-container>input:hover+a {
+  font-weight: 1000;
+  font-size: 25px;
+  color: #F26621;
+}
+
+.st-container>input:checked+a {
+  font-weight: 800;
+  font-size: 25px;
+  color: #F26621;
+}
+
+.st-container>input:hover+a:after  {
+  border-bottom-color: #F26621;
+ 
+}
+
+
 /* .nav-ul > .navbar-nav > .nav-item >.nav-link:active{
   color: #28685A;
   font-weight: 600;
@@ -634,8 +658,6 @@ h3{
   }
   
 }
-
-
 
 
 
