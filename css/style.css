@@ -26,7 +26,7 @@
   font-weight: 400;
 }
 
-.nav-item:checked+ a{
+.nav-item:checked+ .nav-link{
   color: #28685A;
   font-weight: 600;
 
