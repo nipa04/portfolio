@@ -29,8 +29,8 @@
 .nav-item:checked+ .nav-link{
   color: #28685A;
   font-weight: 600;
-
 }
+
 /*
 .st-container>input:hover+a {
   font-weight: 1000;
@@ -852,7 +852,7 @@ h3{
 
 .container-fluid6 button{
   border-radius: 2.5%;
-  padding: 1% 2% 1% 2%;
+  padding: 1% 2.5% 1% 2.5%;
   color: white;
   background-color: #2B3D51;
   border: none;
@@ -914,39 +914,6 @@ h3{
 
 
 
-.footer{
-  background-color: #E0EBE8;
-  font-family: 'EB Garamond', serif;
-  color: #4AB19A;
-  padding: 3%;
-  text-align: center;
-  font-size: 18px;
-  width: 100%;
-}
-.footer a{
-  text-decoration: underline;
-  color: #4AB19A;
-
-}
-.foot{
-  padding-bottom: 2%;
-
-}
-
-.foot>.links{
-  color:#4AB19A;
-  padding: 3%;
-  font-size: 20px;
-  text-decoration: none;
-
-}
-
-.foot>.links:hover{
-  color: #28685A;
-  font-size: 23px;
-  font-weight: 500;
-
-}
 /* font-family: 'EB Garamond', serif;
 font-family: 'Lobster', cursive;
 font-family: 'Montserrat', sans-serif;
@@ -1047,14 +1014,16 @@ font-family: 'Roboto', sans-serif; */
 .iconsId{
   color: white;
   font-size: 55px;
-  transition: width 2s;
- 
-  /* transition-timing-function: ease-in; */
+  transition: all 2s;
+
 }
+
+
 
 .skills{
   color: white;
   font-size: 25px;
+ 
   
 }
 #noteh3{
@@ -1124,4 +1093,44 @@ font-family: 'Roboto', sans-serif; */
   
   }
 
+}
+
+.footer{
+  background-color: #E0EBE8;
+  font-family: 'EB Garamond', serif;
+  color: #4AB19A;
+  padding: 3%;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+}
+.footer a{
+  text-decoration: underline;
+  color: #4AB19A;
+
+}
+.foot{
+  padding-bottom: 2%;
+
+}
+
+.foot>.links{
+  color:#4AB19A;
+  padding: 3%;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+.foot>.links:hover{
+  color: #28685A;
+  font-size: 23px;
+  font-weight: 500;
+
+}
+
+#footlink:hover{
+  color: #1F826B;
+  font-size: larger;
+  
 }
