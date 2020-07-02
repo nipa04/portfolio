@@ -69,7 +69,7 @@
 
 
 .nav-ul > .navbar-nav > .nav-item{
-  padding-right: 15%;
+  /* padding-right: 15%; */
 
 }
 
@@ -93,7 +93,7 @@
 
   .nav-ul > .navbar-nav > .nav-item{
     display: inline-block;
-    padding-right: 10%;
+    /* padding-right: 10%; */
   }
 
 
